@@ -7,9 +7,9 @@ function ColorSchemesExample() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#Home">Justin's Portfolio</Navbar.Brand>
+          <Navbar.Brand href="#About">Justin's Portfolio</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#Home">About Me</Nav.Link>
+            <Nav.Link href="#About">About Me</Nav.Link>
             <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav>
