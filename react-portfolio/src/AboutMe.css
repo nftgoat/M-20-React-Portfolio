@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue !important;
+}
+.nav {
+    padding-bottom: 2vh !important;
+    padding-top: 2vh !important;
+}
+
+.justin {
+    font-size: 30px !important;
+    color: white !important;
+    margin-left: -3vw;
+    font-family:fantasy
+}
+
+.me-auto {
+    margin-left: 33vw;
+    font-size: 21px !important;
+}
+
+h1 {
+    font-family: cursive;
+    margin-bottom: 3vh !important;
+}
+
+p {
+    font-size: 18px;
+
+}
+.navimg {
+    margin-right: vw;
+}
+.mypic {
+    margin-left: 12vw ;
+}
+.buttons {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+}
