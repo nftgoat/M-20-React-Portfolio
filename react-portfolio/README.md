@@ -1,5 +1,5 @@
 # Screenshot of App
-![screenshot](./public/git.png)
+![screenshot](./public/hi.png)
 
 # Getting Started with Create React App
 
