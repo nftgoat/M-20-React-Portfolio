@@ -3,6 +3,7 @@ import './AboutMe.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Row } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button'
 
 function ColorSchemesExample() {
   return (
@@ -15,8 +16,7 @@ function ColorSchemesExample() {
           <Nav className="me-auto">
             <Nav.Link href="#About">About Me</Nav.Link>
             <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
-            <Nav.Link href="#Resume">Resume</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>  
           </Nav>
         </Container>
       </Navbar>
@@ -33,11 +33,26 @@ function ColorSchemesExample() {
       <br></br>
       Feel free to contact me if you are interested in having a professional quality custom website built for your business.
       </p>
+      <h2>My Resume Link</h2>
+      <Button className='mt-2' variant="primary">My Resume</Button>
       </div>
       <div>
         <h1>Qualifications</h1>
         <h4>Front End</h4>
-        <li></li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>jQuery</li>
+        <li>Responsive Design</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <h4>Back End</h4>
+        <li>APIs</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySQL, Sequelize</li>
+        <li>Mongo DB, Mongoose</li>
+        <li>REST</li>
+        <li>GrapgQL</li>
         </div>
       </Row>
       </Container>
